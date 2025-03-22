@@ -212,6 +212,23 @@
     .sub_continents {
       width:80%
     }
+    .portfolio-link {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      z-index: 1000;
+    }
+    .portfolio-link:hover {
+      color: #00f5cc;
+    }
+    .portfolio-link {
+        top: 10px;
+        left: 10px;
+      }
+    
     /* margin on mobile */
     @media (max-width: 640px) {
       body {
@@ -235,9 +252,58 @@
             color: #49F6C3;
         
         }
-
-        
       }
+
+    /* Navigation buttons */
+    .nav-button.top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+      width: 40px;
+      height: 40px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      border: 1px solid white;
+      padding: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+
+    .nav-button.top:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .portfolio-link {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      z-index: 1000;
+    }
+
+    .portfolio-link:hover {
+      color: #00f5cc;
+    }
+
+    @media (max-width: 640px) {
+      .nav-button.top {
+        bottom: 10px;
+        right: 10px;
+      }
+      .portfolio-link {
+        top: 10px;
+        left: 10px;
+      }
+    }
   </style>
   <link href="scrolly-styles.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
@@ -247,7 +313,6 @@
 </head>
 
 <body>
-
   <!-- This section remains in full-width-wrapper with black background -->
 <div class="full-width-wrapper">
   <div class="content">
@@ -383,8 +448,8 @@
   </div>
   
   <!-- End ai2html - 2025-02-26 19:42 -->
-  
-      </div>
+  <a href="https://chilinhhovo.github.io/portfolio/" class="portfolio-link">← Return to Portfolio</a>
+  <a href="#" class="nav-button top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</a>
       <h3>The Most Price-Inflated Item In America</h3>
       <h3>The $5 Million Price Tag on the American Dream</h3>
       <h4>Trump introduces 'gold card' visa to boost wealthy investors with a $5 million price tag, that is a 900% increase in price from the green card in 2017 in 8 years.</h4>
@@ -397,7 +462,7 @@
 
 <div> </div>
     <div class="content">
-        <p>On February 25th, Trump unveiled the <a href="https://www.cnn.com/2025/02/25/politics/us-gold-card-foreigners-trump/index.html">‘Gold Card’</a> visa, a new initiative aimed at attracting wealthy investors with a $5 million price tag. This so-called "golden visa" is set to replace the existing green card system in an effort to boost the U.S. economy.</p>
+        <p>On February 25th, Trump unveiled the <a href="https://www.cnn.com/2025/02/25/politics/us-gold-card-foreigners-trump/index.html">'Gold Card'</a> visa, a new initiative aimed at attracting wealthy investors with a $5 million price tag. This so-called "golden visa" is set to replace the existing green card system in an effort to boost the U.S. economy.</p>
 
         <p>Trump announced that he would replace the EB-5 Immigrant Investor Visa Program, which currently allows foreign investors to obtain permanent residency by making large investments that create or preserve U.S. jobs.</p>
           
