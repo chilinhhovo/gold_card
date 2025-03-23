@@ -19,6 +19,21 @@
             "weight": "700",
             "style": ""
         },
+
+        {
+            "aifont": "HelveticaNeue-Regular",
+            "family": "Helvetica Neue",
+            "weight": "700",
+            "style": ""
+        },
+
+        {
+            "aifont": "HelveticaNeue-Bold",
+            "family": "Helvetica Neue",
+            "weight": "700",
+            "style": ""
+        },
+
         {
             "aifont": "HelveticaNeue-Bold",
             "family": "Helvetica Neue",
